@@ -40,6 +40,7 @@
 		3F7991D52BD211D50035F4EF /* PageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F7991D42BD211D50035F4EF /* PageViewController.swift */; };
 		3F7991D72BD2134B0035F4EF /* FeatureCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F7991D62BD2134B0035F4EF /* FeatureCard.swift */; };
 		3F7991D92BD213C10035F4EF /* PageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F7991D82BD213C10035F4EF /* PageView.swift */; };
+		3F7991DB2BD21DCC0035F4EF /* PageController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F7991DA2BD21DCC0035F4EF /* PageController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -96,6 +97,7 @@
 		3F7991D42BD211D50035F4EF /* PageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PageViewController.swift; sourceTree = "<group>"; };
 		3F7991D62BD2134B0035F4EF /* FeatureCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeatureCard.swift; sourceTree = "<group>"; };
 		3F7991D82BD213C10035F4EF /* PageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PageView.swift; sourceTree = "<group>"; };
+		3F7991DA2BD21DCC0035F4EF /* PageController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PageController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -273,6 +275,7 @@
 			children = (
 				3F7991D42BD211D50035F4EF /* PageViewController.swift */,
 				3F7991D82BD213C10035F4EF /* PageView.swift */,
+				3F7991DA2BD21DCC0035F4EF /* PageController.swift */,
 			);
 			path = PageView;
 			sourceTree = "<group>";
@@ -420,6 +423,7 @@
 				3F7991B12BD0ED9A0035F4EF /* FavoriteButton.swift in Sources */,
 				3F7991D22BD20DB10035F4EF /* CategoryItem.swift in Sources */,
 				3F7991CA2BD203440035F4EF /* HikeDetail.swift in Sources */,
+				3F7991DB2BD21DCC0035F4EF /* PageController.swift in Sources */,
 				3F7991B52BD1F9280035F4EF /* HexagonParameters.swift in Sources */,
 				3F7991C22BD202070035F4EF /* Hike.swift in Sources */,
 				3F7991B92BD1FDF70035F4EF /* BadgeSymbol.swift in Sources */,
