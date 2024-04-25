@@ -1,13 +1,14 @@
 //
-//  LandmarksTests.swift
-//  LandmarksTests
+//  WatchLandmarks_Watch_AppTests.swift
+//  WatchLandmarks Watch AppTests
 //
-//  Created by student on 18/04/24.
+//  Created by student on 25/04/24.
 //
 
 import XCTest
+@testable import WatchLandmarks_Watch_App
 
-final class LandmarksTests: XCTestCase {
+final class WatchLandmarks_Watch_AppTests: XCTestCase {
 
     override func setUpWithError() throws {
         // Put setup code here. This method is called before the invocation of each test method in the class.
@@ -22,7 +23,7 @@ final class LandmarksTests: XCTestCase {
         // Use XCTAssert and related functions to verify your tests produce the correct results.
         // Any test you write for XCTest can be annotated as throws and async.
         // Mark your test throws to produce an unexpected failure when your test encounters an uncaught error.
-        // Mark your test async to allow awaiting for asynchronous code to complete. Check the results with assertions afterwards.
+        // Tests marked async will run the test method on an arbitrary thread managed by the Swift runtime.
     }
 
     func testPerformanceExample() throws {
